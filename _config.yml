@@ -1,10 +1,13 @@
-lsi: false
-safe: true
-source: /
-incremental: false
-highlighter: architect
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: architect
+title: The Blog of Alex
+email: alex.kazaiev@gmail.com
+description: A pile of old notes from some cryptic projects, that's what this is.
+markdown: kramdown
+baseurl: "" 
+domain: alexkaza1ev.github.io
+url: "https://alexkaza1ev.github.io" 
+github_username:  AlexKaza1ev
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
